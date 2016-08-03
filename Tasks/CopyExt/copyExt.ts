@@ -1,31 +1,23 @@
 import path = require('path');
 import fs = require('fs-extra');
 import tl = require('vsts-task-lib/task');
-import micromatch = require('micromatch');
+import matcher = require('./common/shared/multimatch');
 
 try {
 
     var sourceFolder = tl.getPathInput("SourceFolder");
-    var patterns: any = tl.getInput("Contents").split("\n").map((pattern) => {
-        if (pattern.match(/^!/)) {
-            return '!' + path.join(sourceFolder, pattern.substr(1));
-        }
-        return path.join(sourceFolder, pattern)
-    });
-    var allFiles = tl.find(sourceFolder).map(file => path.resolve(file));
+    var patterns: any = tl.getInput("Contents");
     var targetFolder = tl.getPathInput("TargetFolder");
     var cleanTargetFolder = tl.getBoolInput("CleanTargetFolder");
     var overWrite = tl.getBoolInput("OverWrite");
 
-    var files = allFiles.filter(micromatch.filter(patterns, { nodupes: true }));
-
+    var files = matcher.getMatches(sourceFolder, patterns);
 
     if (cleanTargetFolder) {
         tl.rmRF(targetFolder);
     }
 
     fs.ensureDirSync(targetFolder);
-
 
     console.log('copying following files :');
     for (var index = 0; index < files.length; index++) {

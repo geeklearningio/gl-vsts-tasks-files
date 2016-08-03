@@ -3,6 +3,7 @@
     "name": "Zip",
     "friendlyName": "Zip",
     "description": "Zips files from directories using minimatch filtering",
+    "helpMarkDown": "[More Information](https://github.com/geeklearningio/gl-vsts-tasks-files/wiki/Zip) (Version #{Version}#)",    
     "category": "Utility",
     "visibility": [
         "Build",

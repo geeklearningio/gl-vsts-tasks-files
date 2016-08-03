@@ -3,6 +3,7 @@
     "name": "CopyExt",
     "friendlyName": "Copy files (extended)",
     "description": "Copy files with extended minimatch (micromatch) support",
+    "helpMarkDown": "[More Information](https://github.com/geeklearningio/gl-vsts-tasks-files/wiki/Copy-Ext) (Version #{Version}#)",    
     "category": "Utility",
     "visibility": [
         "Build",

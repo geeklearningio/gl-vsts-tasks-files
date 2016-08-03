@@ -8,8 +8,8 @@
             ],
             "DisplayNamesSuffix": "",
             "TaskIds": {
-                "JsonPatch": "DEEAA603-DA23-43AB-A099-33AEFE358520",
-                "XmlPatch": "ACEE093C-D84E-456E-B6F3-1D65969291BD"
+                "Zip": "2BD10ECC-0B4D-4C9D-8833-9E55F436CB83",
+                "CopyExt": "2A5EBCD8-1D48-44F8-AD41-8C1AF81F24C3"
             }
         },
         {
@@ -18,8 +18,8 @@
             "VssExtensionGalleryFlags": [],
             "DisplayNamesSuffix": " (Preview)",
             "TaskIds": {
-                "JsonPatch": "1309EACE-BCEB-46A5-872A-9D9E33820D1D",
-                "XmlPatch": "FBDB24F0-CC20-4927-AF82-18421B3DA3CD"
+                "Zip": "08656AC9-C285-4620-9901-E7A480C1985C",
+                "CopyExt": "889B0515-562A-4087-9BAC-2E87F9AE4C0D"
             }
         },
         {
@@ -28,8 +28,8 @@
             "VssExtensionGalleryFlags": [],
             "DisplayNamesSuffix": " (Development)",
             "TaskIds": {
-                "JsonPatch": "578A87B3-5A3F-461B-828D-E53DA43A8F3A",
-                "XmlPatch": "BD8DCFA1-1592-4DA9-8437-871752577791"
+                "Zip": "741C6A4C-AE23-4BAA-ACA9-0254B43F4CDF",
+                "CopyExt": "E817E267-E05D-440F-85A6-3F8074F60B6C"
             }
         }
     ]

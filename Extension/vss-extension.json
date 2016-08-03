@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
-    "id": "gl-vsts-tasks-file-patch",
-    "name": "File patch Build and Release Tasks",
+    "id": "gl-vsts-tasks-files",
+    "name": "Files helper Build and Release Tasks",
     "version": "0.0.18",
     "publisher": "geeklearningio",    
     "targets": [
@@ -9,7 +9,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "Build and Release Management extensions that help you update files using json patch and similar syntax.",
+    "description": "Visual Studio Team Services Build and Release Management extensions that help you to manipulate your files.",
     "categories": [
         "Build and release"
     ],
@@ -17,11 +17,13 @@
         "default": "extension-icon.png"        
     },
     "tags": [
-        "json",
-        "xml",
-        "patch",
-        "utility",
-        "file"
+        "file",
+        "files",
+        "copy",
+        "zip",
+        "micromatch",
+        "multimatch",
+        "minimatch"
     ],
     "content": {
         "details": {
@@ -33,49 +35,26 @@
     },
     "links": {
         "getstarted": {
-            "uri": "https://github.com/geeklearningio/gl-vsts-tasks-file-patch/wiki"
+            "uri": "https://github.com/geeklearningio/gl-vsts-tasks-files/wiki"
         },
         "support": {
-            "uri": "https://github.com/geeklearningio/gl-vsts-tasks-file-patch/issues"
+            "uri": "https://github.com/geeklearningio/gl-vsts-tasks-files/issues"
         },
         "repository": {
-            "uri": "https://github.com/geeklearningio/gl-vsts-tasks-file-patch"
+            "uri": "https://github.com/geeklearningio/gl-vsts-tasks-files"
         },
         "issues": {
-            "uri": "https://github.com/geeklearningio/gl-vsts-tasks-file-patch/issues"
+            "uri": "https://github.com/geeklearningio/gl-vsts-tasks-files/issues"
         }
     },
     "branding": {
         "color": "#008B8B",
-        "theme": "light"
-    },   
+        "theme": "dark"
+    },  
     "files": [
         {
             "path": "Tasks"
         }
     ],
-    "contributions": [
-        {
-            "id": "json-patch-task",
-            "type": "ms.vss-distributed-task.task",
-            "description": "Applies a json patch to a file",
-            "targets": [
-                "ms.vss-distributed-task.tasks"
-            ],
-            "properties": {
-                "name": "Tasks/JsonPatch"
-            }
-        },
-        {
-            "id": "xml-patch-task",
-            "type": "ms.vss-distributed-task.task",
-            "description": "Applies a json patch to an xml file",
-            "targets": [
-                "ms.vss-distributed-task.tasks"
-            ],
-            "properties": {
-                "name": "Tasks/XmlPatch"
-            }
-        }
-    ]
+    "contributions": [    ]
 }
