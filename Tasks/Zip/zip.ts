@@ -5,7 +5,6 @@ import yazl = require('yazl');
 import matcher = require('./common/shared/multimatch');
 
 try {
-
     var zipRoot = tl.getPathInput("ZipRoot");
     var patterns: any = tl.getInput("Contents")
     var zipPath = tl.getPathInput("TargetPath");

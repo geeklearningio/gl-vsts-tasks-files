@@ -1,9 +1,9 @@
 {
     "id": "2BD10ECC-0B4D-4C9D-8833-9E55F436CB83",
     "name": "Zip",
-    "friendlyName": "Zip",
-    "description": "Zips files from directories using minimatch filtering",
-    "helpMarkDown": "[More Information](https://github.com/geeklearningio/gl-vsts-tasks-files/wiki/Zip) (Version #{Version}#)",    
+    "friendlyName": "ZIP Files",
+    "description": "ZIP files from directories using minimatch filtering",
+    "helpMarkDown": "[More Information](https://github.com/geeklearningio/gl-vsts-tasks-files/wiki/ZIP-Files) (Version #{Version}#)",    
     "category": "Utility",
     "visibility": [
         "Build",
@@ -13,13 +13,13 @@
     "version": {
         "Major": 0,
         "Minor": 0,
-        "Patch": 40
+        "Patch": 0
     },
     "demands": [
         "npm"
     ],
     "minimumAgentVersion": "1.91.0",
-    "instanceNameFormat": "Zips files from directory $(ZipRoot)",
+    "instanceNameFormat": "ZIP files from $(ZipRoot)",
     "inputs": [
         {
             "name": "ZipRoot",

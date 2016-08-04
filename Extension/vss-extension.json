@@ -1,15 +1,15 @@
 {
     "manifestVersion": 1,
     "id": "gl-vsts-tasks-files",
-    "name": "Files helper Build and Release Tasks",
-    "version": "0.0.18",
+    "name": "Files Helpers Build and Release Tasks",
+    "version": "0.0.0",
     "publisher": "geeklearningio",    
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "Visual Studio Team Services Build and Release Management extensions that help you to manipulate your files.",
+    "description": "Build and Release Management extensions that help you manipulate your files.",
     "categories": [
         "Build and release"
     ],
@@ -24,6 +24,14 @@
         "micromatch",
         "multimatch",
         "minimatch"
+    ],
+    "screenshots": [
+        {
+            "path": "Screenshots/TestBuild.png"
+        },
+        {
+            "path": "Screenshots/Add-Tasks.png"
+        }
     ],
     "content": {
         "details": {
@@ -54,7 +62,10 @@
     "files": [
         {
             "path": "Tasks"
+        },
+        {
+            "path": "Screenshots",
+            "addressable": true
         }
-    ],
-    "contributions": [    ]
+    ]
 }
