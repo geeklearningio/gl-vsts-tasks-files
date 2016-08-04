@@ -32,4 +32,5 @@ This extension was created by [Geek Learning](http://geeklearning.io/), with hel
 
 ## Attributions
 
+* [CopyFiles icon from the VSTS Tasks project](https://github.com/Microsoft/vsts-tasks)
 * [Zip by Arthur Shlain from the Noun Project](https://thenounproject.com/search/?q=zip&i=159827)

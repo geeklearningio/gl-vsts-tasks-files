@@ -30,7 +30,11 @@
             "path": "Screenshots/TestBuild.png"
         },
         {
-            "path": "Screenshots/Add-Tasks.png"
+            "path": "Screenshots/Add-Task-CopyExt.png"
+        }
+        ,
+        {
+            "path": "Screenshots/Add-Task-Zip.png"
         }
     ],
     "content": {

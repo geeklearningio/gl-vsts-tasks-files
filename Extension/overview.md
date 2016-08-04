@@ -13,7 +13,7 @@ Visual Studio Team Services Build and Release Management extensions that help yo
 
 After installing the extension, you can add one (or more) of the tasks to a new or existing [build definition](https://www.visualstudio.com/en-us/docs/build/define/create) or [release definition](https://www.visualstudio.com/en-us/docs/release/author-release-definition/more-release-definition)
 
-![add-task](Screenshots/Add-Tasks.png)
+![Add-Task](Screenshots/Add-Task-Zip.png)
 
 ## Learn more
 
