@@ -1,9 +1,9 @@
 {
     "id": "2A5EBCD8-1D48-44F8-AD41-8C1AF81F24C3",
     "name": "CopyExt",
-    "friendlyName": "Copy files (extended)",
-    "description": "Copy files with extended minimatch (micromatch) support",
-    "helpMarkDown": "[More Information](https://github.com/geeklearningio/gl-vsts-tasks-files/wiki/Copy-Ext) (Version #{Version}#)",    
+    "friendlyName": "Copy Files Extended",
+    "description": "Copy files with full micromatch support",
+    "helpMarkDown": "[More Information](https://github.com/geeklearningio/gl-vsts-tasks-files/wiki/Copy-Files-Extended) (Version #{Version}#)",    
     "category": "Utility",
     "visibility": [
         "Build",
@@ -13,7 +13,7 @@
     "version": {
         "Major": 0,
         "Minor": 0,
-        "Patch": 42
+        "Patch": 0
     },
     "demands": [
         "npm"

@@ -1,11 +1,8 @@
 {
   "name": "gl-vsts-tasks-files",
   "version": "0.1.0",
-  "description": "Files tasks for the Team Services build system",
+  "description": "Visual Studio Team Services Build and Release Management extensions that help you manipulate your files",
   "main": "gulpfile.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "clean" : "node ./BuildScripts/clean.js",
     "pullsubmodules": "git submodule foreach git pull origin master",
@@ -25,7 +22,7 @@
     "VSTS",
     "build",
     "tasks",
-    "Azure"
+    "files"
   ],
   "author": "Geek Learning, Adrien Siffermann, Cyprien Autexier",
   "license": "MIT",

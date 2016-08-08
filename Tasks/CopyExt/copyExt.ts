@@ -4,7 +4,6 @@ import tl = require('vsts-task-lib/task');
 import matcher = require('./common/shared/multimatch');
 
 try {
-
     var sourceFolder = tl.getPathInput("SourceFolder");
     var patterns: any = tl.getInput("Contents");
     var targetFolder = tl.getPathInput("TargetFolder");
@@ -36,7 +35,6 @@ try {
             console.log('[To]' + targetPath);
         }
     }
-
 } catch (err) {
     tl.setResult(tl.TaskResult.Failed, String(err));
 }
