@@ -9,7 +9,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "Build and Release Management extensions that help you manipulate your files.",
+    "description": "Zip (with xplat support) or copy files with full minimatch support using these Build and Release Management tasks.",
     "categories": [
         "Build and release"
     ],

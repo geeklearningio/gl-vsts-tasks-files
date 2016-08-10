@@ -6,7 +6,7 @@ Visual Studio Team Services Build and Release Management extensions that help yo
 
 ## Tasks included
 
-* **[ZIP Files](https://github.com/geeklearningio/gl-vsts-tasks-files/wiki/ZIP-Files)**: ZIP files from directories using minimatch filtering
+* **[ZIP Files](https://github.com/geeklearningio/gl-vsts-tasks-files/wiki/ZIP-Files)**: ZIP files from directories using minimatch filtering (xplat agent supported)
 * **[Copy Files Extended](https://github.com/geeklearningio/gl-vsts-tasks-files/wiki/Copy-Files-Extended)**: Copy files with full micromatch support
 
 ## Steps
