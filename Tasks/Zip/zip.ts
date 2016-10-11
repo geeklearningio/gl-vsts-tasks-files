@@ -11,6 +11,8 @@ try {
     var zipName = tl.getPathInput("ZipName");
     var zipFile = new yazl.ZipFile();
 
+    fs.ensureDirSync(zipPath);
+
     zipFile.outputStream.pipe(fs.createWriteStream(path.join(zipPath, zipName)))
         .on("close", () => {
             console.log('zipping done');
