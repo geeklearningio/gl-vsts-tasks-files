@@ -32,7 +32,10 @@ try {
         console.log(file);
         var stat = fs.statSync(file);
         if (stat.isDirectory()) {
-            zipFile.addEmptyDirectory(path.relative(zipRoot, file));
+             var result = path.relative(zipRoot, file);
+	         if( result ) {
+	          zipFile.addEmptyDirectory(result);
+	         }
         } else {
             zipFile.addFile(file, path.relative(zipRoot, file));
         }
